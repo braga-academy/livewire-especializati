@@ -16,4 +16,10 @@
         <p><b>{{ $tweet->user->name }}</b> - {{ $tweet->content }}</p>
     @endforeach
 
+    <hr>
+
+    <div>
+        {{ $tweets->links() }}
+    </div>
+
 </div>
